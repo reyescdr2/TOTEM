@@ -1,6 +1,2 @@
-libgl1
-libglib2.0-0
-ffmpeg
-libsm6
-libxext6
-libxrender-dev
+# Archivo vacío para evitar conflictos de dependencias Apt en Streamlit Cloud.
+# Usamos binarios estáticos a través de Python (static-ffmpeg / opencv-headless).
