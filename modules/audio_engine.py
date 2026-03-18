@@ -7,9 +7,11 @@ import traceback
 # Motor recalibrado para asegurar la compatibilidad universal del activo de audio.
 
 try:
-    import static_ffmpeg
-    static_ffmpeg.add_paths() # Inyección de binarios FFMPEG
     from pydub import AudioSegment
+    try:
+        import static_ffmpeg
+        static_ffmpeg.add_paths() 
+    except: pass
 except ImportError:
     AudioSegment = None
 
