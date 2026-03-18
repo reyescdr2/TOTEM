@@ -1,2 +1,0 @@
-# Archivo vacío para evitar conflictos de dependencias Apt en Streamlit Cloud.
-# Usamos binarios estáticos a través de Python (static-ffmpeg / opencv-headless).
